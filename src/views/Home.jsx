@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import ModalEdit from '../components/Modal/modalEdit/ModalEdit';
 import DeleteModal from '../components/Modal/modalDelete/DeleteModal';
