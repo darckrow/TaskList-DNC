@@ -5,7 +5,7 @@ import DeleteModal from '../components/Modal/modalDelete/DeleteModal';
 import edit from '../assets/edit.svg';
 import deleteicon from '../assets/delete.svg';
 import './index.scss';
-import Input from '../components/input/input';
+import input from '../components/input/input';
 import mockData from '../Mock/mockData'
 import Navigate from '../components/navBar/navBar'
 
@@ -80,7 +80,7 @@ const Home = () => {
                     </li>
                 ))}
             </ul>
-            <Input onAddTask={addTask} />
+            <input onAddTask={addTask} />
             {isEditModalOpen && (
                 <ModalEdit
                     isOpen={isEditModalOpen}
